@@ -22,7 +22,7 @@ a{
 
 /*---Banner Section----*/
 .banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/assets/images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     background-size: cover;
     border-radius: 16px;
     width: 100%;
