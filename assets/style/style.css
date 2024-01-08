@@ -1,6 +1,5 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,18 +7,14 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
-
 a{
     list-style: none;
-
 }
-
 .container {
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
 }
-
 /*---Banner Section----*/
 .banner {
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -29,11 +24,9 @@ a{
     height: 600px;
     margin-top: 50px;
 }
-
 .banner-text {
     padding-top: 177px;
 }
-
 .banner h4 {
     color: #fff;
     text-align: center;
@@ -42,7 +35,6 @@ a{
     font-weight: 400;
     margin-bottom: 16px;
 }
-
 .banner h1 {
     color: #FFF;
     text-align: center;
@@ -51,15 +43,12 @@ a{
     font-weight: 900;
     line-height: 95px;
 }
-
 /*-----Hot Deals-----*/
-
 .deals {
     text-align: center;
     align-items: center;
     padding-top: 120px;
 }
-
 .deals h1 {
     color: #F00;
     font-size: 88px;
@@ -67,7 +56,6 @@ a{
     font-weight: 700;
     padding-bottom: 48px;
 }
-
 .deals p {
     color: #F00;
     font-size: 24px;
@@ -75,7 +63,6 @@ a{
     font-family: Inter;
     padding-bottom: 16px;
 }
-
 .deals h3 {
     color: #070211;
     font-family: Inter;
@@ -83,11 +70,9 @@ a{
     font-weight: 700;
     padding-bottom: 48px;
 }
-
 .deals img {
     padding-bottom: 120px;
 }
-
 /*-----Part Section -----*/
 .container-party {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
@@ -100,9 +85,7 @@ a{
     position: relative;
     display: flex;
     flex-direction: row;
-
 }
-
 .img-2024>img {
     position: relative;
     top: 68px;
@@ -112,21 +95,17 @@ a{
     justify-content: center;
     align-items: center;
 }
-
 .party h1,
 .party .btn {
     color: #FFF;
 }
-
 .party h1,
 .party p {
     padding-left: 126px;
 }
-
 .btn {
     margin-left: 158px;
 }
-
 .party h1 {
     font-family: Merriweather;
     font-size: 64px;
@@ -137,7 +116,6 @@ a{
     padding-top: 126px;
     padding-bottom: 24px;
 }
-
 .party p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -146,7 +124,6 @@ a{
     line-height: 30px;
     padding-bottom: 48px;
 }
-
 .btn {
     text-align: center;
     font-family: Inter;
@@ -160,20 +137,15 @@ a{
     cursor: pointer;
     transition: .2s ease-in-out 0s;
 }
-
 .btn:hover{
     transform: scale(1.1);
     background-color: #f00;
 }
-
-
-
 .img-2024 {
     align-items: center;
     z-index: 1;
     opacity: 90%;
 }
-
 .party-img {
     background-position: right;
     padding-top: 68px;
@@ -186,9 +158,6 @@ a{
     flex-shrink: 0;
     background-color: #690B02, #8F4941, #B18079, #CDADA8, #E3D1CD, #F2EAE7, #FCFAF6, #FFFFFC;
 }
-
-
-
 /*----schedule Section----*/
 .schedule {
     background-image: url('../images/Vector.png');
@@ -198,7 +167,6 @@ a{
     padding-top: 100px;
     text-align: center;
 }
-
 .schedule h3 {
     color: #070211;
     font-family: Inter;
@@ -208,7 +176,6 @@ a{
     line-height: 56px;
     text-transform: capitalize;
 }
-
 .schedule h3 span {
     color: #F00;
     text-align: center;
@@ -220,7 +187,6 @@ a{
     /* 175% */
     text-transform: capitalize;
 }
-
 .schedule button {
     margin-top: 64px;
     color: #FFF;
@@ -234,13 +200,10 @@ a{
     cursor: pointer;
     transition: .2s ease-in-out 0s;
 }
-
 .schedule button:hover{
     transform: scale(1.1);
 }
-
 /**-----Comming Soon------*/
-
 .comming-soon {
     display: flex;
     align-items: center;
@@ -249,7 +212,6 @@ a{
     padding-top: 120px;
     /* padding-bottom: 120px; */
 }
-
 .subtitle {
     color: #F00;
     text-align: center;
@@ -261,7 +223,6 @@ a{
     text-align: left;
     padding-bottom: 22px;
 }
-
 .content h2 {
     color: #070211;
     font-family: Merriweather;
@@ -273,7 +234,6 @@ a{
     padding-bottom: 22px;
     width: 393px;
 }
-
 .description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -283,7 +243,6 @@ a{
     line-height: 32px;
     /* 160% */
 }
-
 .comming-soon-img img {
     background-color: #fff;
     border-radius: 463px;
@@ -293,7 +252,6 @@ a{
     flex-shrink: 0;
     padding: 49px;
 }
-
 .year-2024 h3 {
     color: #F00;
     font-family: Inter;
@@ -303,7 +261,6 @@ a{
     line-height: normal;
     padding-bottom: 16px;
 }
-
 .year-2024 p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -313,18 +270,15 @@ a{
     line-height: 32px;
     padding-bottom: 43px;
 }
-
 /*--------Discount --------*/
 .discount {
     margin-top: 120px;
 }
-
 .holiday-sale {
     text-align: center;
     display: block;
     padding-bottom: 64px;
 }
-
 .title {
     color: #070211;
     font-family: Inter;
@@ -334,7 +288,6 @@ a{
     line-height: normal;
     padding-bottom: 16px;
 }
-
 .holiday-sale h1 {
     text-align: center;
     font-family: Merriweather;
@@ -345,7 +298,6 @@ a{
     padding-bottom: 26px;
     z-index: 100;
 }
-
 .holiday-sale h1 span {
     color: #F00;
     text-align: center;
@@ -355,11 +307,9 @@ a{
     font-weight: 900;
     line-height: normal;
 }
-
 .discount-sale {
     height: 660px;
 }
-
 .details {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -371,9 +321,6 @@ a{
     width: 1068px;
     margin: 0 auto;
 }
-
-
-
 .holidays-sale-banner {
     position: relative;
     display: flex;
@@ -383,18 +330,15 @@ a{
     background-position: bottom, right 3%;
     width: 100%;
 }
-
 .holidays-sale-banner>img {
     position: relative;
     top: 81px;
     right: 22%;
 }
-
 /*--------Portfolio----*/
 .portfolio {
     padding-top: 120px;
 }
-
 .portfolio h6 {
     color: #F00;
     font-family: Inter;
@@ -404,7 +348,6 @@ a{
     line-height: normal;
     padding-bottom: 16px;
 }
-
 .portfolio h2 {
     color: #070211;
     font-family: Merriweather;
@@ -415,7 +358,6 @@ a{
     text-transform: capitalize;
     padding-bottom: 22px;
 }
-
 .portfolio p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -426,9 +368,6 @@ a{
     width: 896px;
     padding-bottom: 48px;
 }
-
-
-
 .image-container {
     display: flex;
     flex-direction: row;
@@ -437,24 +376,19 @@ a{
     row-gap: 24px;
     padding-bottom: 120px;
 }
-
 .image-container img {
     /* width: 442px;
     height: 451px; */
     transition: .3s ease-in-out;
     opacity: 0.7;
 }
-
 .image-container img:hover {
     width: 400px;
     height: 425px;
     border-radius: 10px;
     opacity: 1;
 }
-
-
 /*--------Newsletter----*/
-
 .newsletter {
     width: 100%;
     height: 616px;
@@ -464,11 +398,9 @@ a{
     text-align: center;
     margin-bottom: 120px;
 }
-
 .newsletter img {
     padding: 80px 0 40px;
 }
-
 .newsletter h1 {
     color: #070211;
     font-family: Merriweather;
@@ -477,8 +409,6 @@ a{
     line-height: normal;
     padding-bottom: 22px;
 }
-
-
 .newsletter p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -487,15 +417,11 @@ a{
     line-height: 32px;
     padding: 0 212px 48px 212px;
 }
-
-
-
 form {
     position: absolute;
     left: 336px;
     right: 336px;
 }
-
 .email {
     width: 438px;
     height: 72px;
@@ -510,7 +436,6 @@ form {
     line-height: normal;
     padding: 25px 30px;
 }
-
 .Subscribe {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
@@ -529,23 +454,17 @@ form {
     transition: 0.3s;
     opacity: 0.7;
 }
-
 .Subscribe:hover{
     opacity: 1;
 }
-
 /*-----Footer------*/
-
 footer {
     background: #070211;
 }
-
 .footer-container {
     background: #070211;
     width: 1600px;
-
 }
-
 .top-footer {
     display: flex;
     flex-direction: row;
@@ -553,13 +472,11 @@ footer {
     justify-content: space-between;
     padding-top: 120px;
 }
-
 .contac-info {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .location p {
     color: #FFF;
     font-family: Inter;
@@ -569,7 +486,6 @@ footer {
     line-height: 40px;
     /* 166.667% */
 }
-
 .contac-info p {
     color: #FFF;
     padding-left: 16px;
@@ -579,14 +495,11 @@ footer {
     font-weight: 500;
     line-height: 40px;
 }
-
 .contac-info img {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
-
 }
-
 .social-media {
     display: flex;
     flex-direction: row;
@@ -595,18 +508,15 @@ footer {
     column-gap: 24px;
     
 }
-
 .social-media > img{
     cursor: pointer;
 }
-
 .copyright {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
 .copyright p {
     color: #FFF;
     font-family: Inter;
@@ -616,9 +526,6 @@ footer {
     line-height: normal;
     padding-bottom: 120px;
 }
-
-
-
 hr {
     width: 1320px;
     border: 1px solid rgba(255, 255, 255, 0.15);
