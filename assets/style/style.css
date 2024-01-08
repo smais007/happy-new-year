@@ -559,7 +559,51 @@ form {
 
 
 /*-----Footer------*/
+
+footer{
+    background: #070211;
+}
 .footer-container {
     background: #070211;
+    width: 1600px;
+
+}
+
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contac-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+.contac-info p{
+    color: #FFF;
+    padding-left: 16px;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+
+.contac-info img{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
 
 }
