@@ -438,6 +438,20 @@ a{
     padding-bottom: 120px;
 }
 
+.image-container img {
+    /* width: 442px;
+    height: 451px; */
+    transition: .3s ease-in-out;
+    opacity: 0.7;
+}
+
+.image-container img:hover {
+    width: 400px;
+    height: 425px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
 
 /*--------Newsletter----*/
 
