@@ -392,37 +392,6 @@ margin: 0 auto;
     top: 81px;
     right: 22%;
   }
-/* 
-.gift-container{
-    display: flex;
-    flex-direction: column;
-    column-gap: 0;
-} */
-
-/* .gift-box{
-    position: relative;
-    top: 100px;
-} */
-
-/* .discount-off{
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.img-2{
-    position: absolute;
-left: 50%;
-z-index: -1;
-}
-
-.Rectangle{
-    position: relative;
-    top: 120px;
-    z-index:100;
-    
-} */
-
 
 /*--------Portfolio----*/
 .portfolio{
@@ -480,6 +449,7 @@ padding-bottom: 48px;
     background: rgba(255, 0, 0, 0.05);
     align-items: center;
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .newsletter img {
@@ -511,11 +481,6 @@ padding-bottom: 48px;
 }
 
 
-.newsletter form {
-    /* width: 648px;
-height: 72px; */
-    /* padding: 48px 336px 80px; */
-}
 
 form {
     /* margin: 48px 336px 80px; */
@@ -574,6 +539,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-top: 120px;
 }
 
 .contac-info{
@@ -606,4 +572,36 @@ line-height: 40px; /* 166.667% */
 height: 24px;
 flex-shrink: 0;
 
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 120px;
+}
+
+hr{
+    width: 1320px;
+border: 1px solid rgba(255, 255, 255, 0.15);;
+margin-bottom: 50px;
+margin-top: 48px;
 }
